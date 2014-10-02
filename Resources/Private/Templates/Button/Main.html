@@ -1,0 +1,9 @@
+{namespace trb = TRB\TrbBasicsViewhelper\ViewHelpers}
+<f:if condition="{data.header_link}">
+	<f:then>
+		<trb:render partial="Button/{data.layout}" arguments="{_all}" fallback="Button/0" />
+	</f:then>
+	<f:else>
+		Please specify link!
+	</f:else>
+</f:if>

@@ -1,0 +1,9 @@
+plugin.tx_trbcebutton {
+	view {
+		templateRootPath = {$plugin.tx_trbcebutton.view.templateRootPath}
+		partialRootPath = {$plugin.tx_trbcebutton.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_trbcebutton.view.layoutRootPath}
+	}
+}
+
+tt_content.trbcebutton_button.10 >

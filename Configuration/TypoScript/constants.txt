@@ -1,0 +1,14 @@
+# customsubcategory=trb_ce_button=Button
+
+plugin.tx_trbcebutton {
+	view {
+		# cat=TRB Common: Paths/trb_ce_button/10; type=string; label=Templates Root Path;
+		templateRootPath = EXT:trb_ce_button/Resources/Private/Templates/
+
+		# cat=TRB Common: Paths/trb_ce_button/20; type=string; label=Partials Root Path;
+		partialRootPath = EXT:trb_ce_button/Resources/Private/Partials/
+
+		# cat=TRB Common: Paths/trb_ce_button/30; type=string; label=Layouts Root Path;
+		layoutRootPath = EXT:trb_ce_button/Resources/Private/Layouts/		
+	}
+}
